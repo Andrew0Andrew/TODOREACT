@@ -30,3 +30,24 @@
     margin-top: 2vh;
 }
 
+.note_list {
+    max-height: 40vh;
+    overflow-y:scroll;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.note_list_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    height: 10vh;
+    background-color: grey;
+}
+
+.note_list_card_title,.note_list_card_priority {
+    margin: 0;
+}
