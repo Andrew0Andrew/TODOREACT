@@ -1,0 +1,32 @@
+.note {
+    width: 25vw;
+    height: auto;
+    min-height: 20vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(180deg, rgb(28, 36, 34), rgb(31, 35, 64) 100%);
+    background: -moz-linear-gradient(180deg, rgb(28, 36, 34), rgb(31, 35, 64) 100%);
+    background: linear-gradient(180deg, rgb(28, 36, 34), rgb(31, 35, 64) 100%);
+    border:.5px solid hsla(0, 0%, 100%, 0.5);
+}
+
+.note_title {
+    margin: 0;
+    text-align: center;
+}
+
+
+.note_create_priority,.note_create_button,.note_create_title{
+    border-radius: 5px;
+    border: none;
+    padding: 1vh;
+}
+
+.note_create {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
